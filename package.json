@@ -1,0 +1,33 @@
+{
+  "name": "nightwatch-api-automation",
+  "author": "Millan Kaul (eaccmk)",
+  "version": "1.0.0",
+  "description": "Minimalistic API testing using nightwatchJS - run and set up your first automated API test in 15 mins with HTML report by #QualityWithMillan",
+  "main": "test/API/api-test.js",
+  "scripts": {
+    "test": "npx nightwatch test/API/api-test.js --env api_testing"
+  },
+  "keywords": [
+    "nightwatch",
+    "nightwatchjs",
+    "testing",
+    "end-to-end",
+    "automated-testing",
+    "e2e",
+    "integration",
+    "test",
+    "automation",
+    "test-automation",
+    "api-testing",
+    "QualityWithMillan"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "http://example.com/donate"
+  }
+  "devDependencies": {
+    "@nightwatch/apitesting": "^3.0.1",
+    "chromedriver": "^114.0.2",
+    "nightwatch": "^3.0.1"
+  }
+}
